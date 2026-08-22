@@ -33,6 +33,12 @@ Locate where the person is, run that stage, then push to the next. Do not run st
 
 Close every session with the four artifacts: **the hypothesis**, **the riskiest assumption**, **the cheapest test + its pass/fail signal**, **the one action this week**. If any is missing, the loop is not done.
 
+## Research: desk vs primary
+
+Use **web search / research tools** during OBSERVE and FRAME to gather **desk research** — existing solutions, competitors, market size, pricing, trends. This *informs* the assumptions and sharpens the framing; do it before guessing.
+
+But desk research has a hard ceiling: it never validates the **riskiest assumption**. Whether *this* customer feels *this* pain sharply enough to *pay* is answered only by **primary evidence** — interviews, a landing page, a pre-order — in the TEST stage. Never let a search session stand in for a customer conversation. How to run each well: [`references/research.md`](references/research.md).
+
 ## When NOT to run this
 
 - They have already validated and committed, and are now building — help build, do not re-litigate the idea.
@@ -43,4 +49,5 @@ Close every session with the four artifacts: **the hypothesis**, **the riskiest 
 - [`references/framing.md`](references/framing.md) — the full FRAME interrogation battery.
 - [`references/loop.md`](references/loop.md) — every stage OBSERVE→SCALE in detail, incl. wedge and painkiller/vitamin.
 - [`references/economics.md`](references/economics.md) — quick unit-economics check (price, cost, margin, CAC, LTV).
+- [`references/research.md`](references/research.md) — desk research (how to scan solutions, competitors, market size) vs primary evidence.
 - [`references/skill-tree.md`](references/skill-tree.md) — the 13 sub-skills of venture thinking, for deliberate self-study.

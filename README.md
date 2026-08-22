@@ -15,6 +15,7 @@ venture-thinking/
     ├── framing.md            # the 7-question FRAME battery
     ├── loop.md               # full OBSERVE → SCALE arc, wedge, horizons
     ├── economics.md          # quick unit-economics check (margin, CAC, LTV)
+    ├── research.md           # desk research vs primary evidence
     └── skill-tree.md         # the 13 sub-skills, for self-study
 ```
 
@@ -24,12 +25,12 @@ Skills are just a folder with a `SKILL.md`. Drop this repo into any agent's skil
 
 **Claude Code — personal (all projects):**
 ```bash
-git clone git@github.com:fprtm/venture-thinking.git ~/.claude/skills/venture-thinking
+git clone https://github.com/fprtm/venture-thinking.git ~/.claude/skills/venture-thinking
 ```
 
 **Claude Code — one project only:**
 ```bash
-git clone git@github.com:fprtm/venture-thinking.git .claude/skills/venture-thinking
+git clone https://github.com/fprtm/venture-thinking.git .claude/skills/venture-thinking
 ```
 
 **Update everywhere later:**
