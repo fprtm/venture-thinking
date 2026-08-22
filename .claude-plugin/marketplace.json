@@ -1,0 +1,18 @@
+{
+  "name": "venture-thinking",
+  "description": "Venture thinking skill library for Claude — turns a business/product idea into a testable hypothesis.",
+  "owner": {
+    "name": "Ferry Agus Pratama"
+  },
+  "plugins": [
+    {
+      "name": "venture-thinking",
+      "description": "Stress-test and sharpen a business, product, or feature idea before building it. Idea -> hypothesis -> riskiest assumption -> cheapest test.",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Ferry Agus Pratama"
+      }
+    }
+  ]
+}

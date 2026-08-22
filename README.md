@@ -10,33 +10,50 @@ Fires automatically when you bring an idea, ask "should I build this?", want to 
 
 ```
 venture-thinking/
-├── SKILL.md                  # the active loop the agent runs
+├── .claude-plugin/
+│   ├── plugin.json            # plugin manifest (name, version, license)
+│   └── marketplace.json       # makes this repo installable as a marketplace
+├── SKILL.md                   # the active loop the agent runs
 └── references/
-    ├── framing.md            # the 7-question FRAME battery
-    ├── loop.md               # full OBSERVE → SCALE arc, wedge, horizons
-    ├── economics.md          # quick unit-economics check (margin, CAC, LTV)
-    ├── research.md           # desk research vs primary evidence
-    └── skill-tree.md         # the 13 sub-skills, for self-study
+    ├── framing.md             # the 7-question FRAME battery
+    ├── loop.md                # full OBSERVE → SCALE arc, wedge, horizons
+    ├── economics.md           # quick unit-economics check (margin, CAC, LTV)
+    ├── research.md            # desk research vs primary evidence
+    └── skill-tree.md          # the 13 sub-skills, for self-study
 ```
 
 ## Install
 
-Skills are just a folder with a `SKILL.md`. Drop this repo into any agent's skills directory.
+### Claude Code or Cowork — one URL, one click (recommended)
 
-**Claude Code — personal (all projects):**
+Both read this repo as a plugin marketplace, so no manual file copying is needed.
+
+**Claude Code (CLI):**
 ```bash
-git clone https://github.com/fprtm/venture-thinking.git ~/.claude/skills/venture-thinking
+claude marketplace add fprtm/venture-thinking
+claude plugin install venture-thinking@venture-thinking
 ```
 
-**Claude Code — one project only:**
+**Cowork (Desktop app or claude.ai):**
+1. Sidebar → **Customize** → **Plugins**
+2. **Add marketplace** → paste `https://github.com/fprtm/venture-thinking`
+3. Find **venture-thinking** in the list → **Install**
+
+Updating later: `claude marketplace update venture-thinking`, or click **Update** on the marketplace in Cowork's Plugins page.
+
+### Claude Code — manual clone (alternative)
+
+Skills are just a folder with a `SKILL.md`; you can also drop this repo straight into a skills directory.
+
 ```bash
+# personal, all projects
+git clone https://github.com/fprtm/venture-thinking.git ~/.claude/skills/venture-thinking
+# one project only
 git clone https://github.com/fprtm/venture-thinking.git .claude/skills/venture-thinking
 ```
+Update later: `git -C <path>/venture-thinking pull`
 
-**Update everywhere later:**
-```bash
-git -C <path>/venture-thinking pull
-```
+---
 
 Once installed it is model-invoked: the agent reaches for it on its own when you're weighing an idea. You can also just describe an idea and let it fire.
 

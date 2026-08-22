@@ -1,0 +1,12 @@
+{
+  "name": "venture-thinking",
+  "description": "Stress-test and sharpen a business, product, or feature idea before building it. Idea -> hypothesis -> riskiest assumption -> cheapest test.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ferry Agus Pratama"
+  },
+  "homepage": "https://github.com/fprtm/venture-thinking",
+  "repository": "https://github.com/fprtm/venture-thinking",
+  "license": "MIT",
+  "keywords": ["skills", "business", "startup", "strategy", "product", "validation"]
+}
