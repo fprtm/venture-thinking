@@ -18,6 +18,8 @@ Hold these while running the loop — they override the default urge to help bui
 - **Hunt the riskiest assumption, not confirmation.** Your job is to find the belief that, if false, sinks the whole thing — then attack *that*, cheaply, before anything gets built.
 - **Painkiller over vitamin.** A painkiller is something the customer *must* have; a vitamin is nice-to-have. Only painkillers sell easily. Grade the pain honestly.
 - **Match rigor to reversibility.** A **reversible** decision (copy, pricing test, MVP scope) is cheap to undo — decide fast and test. An **irreversible** one (big hire, capital, long contract, new market) is expensive to undo — that is where deep reasoning earns its keep. Do not deep-think reversible bets; do not gamble irreversible ones.
+- **Close the gap, don't just point at it.** Flagging a risk is half the job. Before handing back a "go find out" homework assignment, spend your own research budget trying to shrink it: search for analogous markets, comparable products' traction, pricing benchmarks, public spend/behavior data, forum and review complaints — anything that substitutes for or de-risks the primary test. Only fall back to "go ask customers" for what desk research genuinely cannot answer (see [`references/research.md`](references/research.md)).
+- **Propose, don't just object.** If a stronger wedge, cheaper channel, better price point, or an adjacent problem with better economics is visible, say so explicitly with reasoning — do not just critique their idea and stop. Skepticism without a counter-offer is a commissioner's job, not this skill's.
 
 ## The loop
 
@@ -27,17 +29,17 @@ Locate where the person is, run that stage, then push to the next. Do not run st
 
 2. **ASSUME** — List everything that must be true for this to work (customer has the problem / it is painful enough / they will pay $X / you can reach them profitably / you can deliver it / it can get large). Rank each by *risk × uncertainty*. **Done when:** the single riskiest assumption is named — the one that is both most damaging if false and least known today.
 
-3. **TEST** — Design the cheapest experiment that could *kill* the riskiest assumption: customer interview, landing page, pre-order, concierge/manual MVP, pilot — not a finished product. State the pass/fail signal *before* running it. **Done when:** there is one test, its cost, and the observable result that would confirm or refute the assumption. Stage map (BUILD→SELL→LEARN→SCALE) if they are further along: [`references/loop.md`](references/loop.md).
+3. **TEST** — First, try to kill or shrink the riskiest assumption with desk research you run yourself — proxy data, comparable products, analogous markets, spend evidence. If that's not enough, design the *fastest* experiment that could still kill it, picking from cheapest/quickest to slowest: landing page + ad spend (hours), pre-order/waitlist (a day), 3–5 rapid interviews (1–2 days), concierge/manual MVP (days), pilot (weeks), full interview batch (a week) — only reach for the week-long option when faster ones genuinely cannot produce a real signal. Not a finished product. State the pass/fail signal *before* running it. **Done when:** there is one test, its cost, its turnaround time, and the observable result that would confirm or refute the assumption. Stage map (BUILD→SELL→LEARN→SCALE) if they are further along: [`references/loop.md`](references/loop.md).
 
-4. **BET** — Convert to one concrete Horizon-1 action for this week (e.g. "interview 10 clinic owners by Friday"), while keeping the ambitious Horizon-3 vision as the North Star. **Done when:** the person has a single next action with a deadline.
+4. **BET** — Convert to one concrete Horizon-1 action for this week (e.g. "launch a landing page with two pricing tiers by Wednesday" or "interview 5 clinic owners by Friday" — whichever the TEST stage actually produced), while keeping the ambitious Horizon-3 vision as the North Star. **Done when:** the person has a single next action with a deadline.
 
-Close every session with the four artifacts: **the hypothesis**, **the riskiest assumption**, **the cheapest test + its pass/fail signal**, **the one action this week**. If any is missing, the loop is not done.
+Close every session with five artifacts: **the hypothesis**, **the riskiest assumption**, **the cheapest test + its pass/fail signal**, **the one action this week**, and **a stated verdict on whether a stronger alternative exists** — either "no better angle found" or the alternative itself with the reason it's stronger. If any is missing, the loop is not done.
 
 ## Research: desk vs primary
 
-Use **web search / research tools** during OBSERVE and FRAME to gather **desk research** — existing solutions, competitors, market size, pricing, trends. This *informs* the assumptions and sharpens the framing; do it before guessing.
+Use **web search / research tools** during OBSERVE, FRAME, and TEST to gather **desk research** — existing solutions, competitors, market size, pricing, trends, review-site complaints. This *informs* the assumptions, sharpens the framing, and can *de-risk or shrink* the riskiest assumption before any primary test is designed — do it before guessing, and do it again before defaulting to a primary test.
 
-But desk research has a hard ceiling: it never validates the **riskiest assumption**. Whether *this* customer feels *this* pain sharply enough to *pay* is answered only by **primary evidence** — interviews, a landing page, a pre-order — in the TEST stage. Never let a search session stand in for a customer conversation. How to run each well: [`references/research.md`](references/research.md).
+Desk research does have a ceiling: strong analogous evidence can make an assumption medium-confidence, but only **primary evidence** — interviews, a landing page, a pre-order — in the TEST stage produces "here's my money." Don't let a search session *replace* that final signal, but don't skip straight to demanding one either when desk research already answered most of the question. How to run each well: [`references/research.md`](references/research.md).
 
 ## When NOT to run this
 

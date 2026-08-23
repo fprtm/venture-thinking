@@ -9,7 +9,12 @@ Two kinds of research, and they answer different questions. Confusing them is ho
 | **Stage** | OBSERVE, FRAME | TEST |
 | **Ceiling** | Can never confirm willingness-to-pay | The only thing that confirms the riskiest assumption |
 
-**Rule:** desk research *informs* assumptions; primary evidence *validates* them. Never let a search session stand in for a customer conversation.
+**Rule:** desk research *informs* assumptions; primary evidence *validates* them. Never let a search session stand in for a customer conversation. But desk research is not just prep work for a lecture about primary research — use it actively to **shrink the test**, not just to justify demanding one:
+
+- A comparable product's public traction, pricing tiers, or funding history can substitute for "will they pay roughly this much."
+- Review-site and forum complaints ("I hate that X costs so much / takes so long") are free, real evidence of pain — often enough to skip straight to a landing page instead of cold interviews.
+- If desk research turns up strong analogous evidence, say explicitly: "this assumption is now medium-confidence from desk research alone — the remaining test is smaller than you'd think." Don't default to the full primary-research menu when the risk is already partly closed.
+- If desk research turns up a *better* angle than the one the person brought (cheaper channel, sharper wedge, competitor's obvious blind spot), surface it and explain why — that's a finding, not a tangent.
 
 ## Desk research — do this first, do it fast
 
