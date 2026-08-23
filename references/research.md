@@ -1,38 +1,42 @@
-# Research: desk vs primary
+# Research: desk, social listening, and true primary
 
-Two kinds of research, and they answer different questions. Confusing them is how people spend weeks "researching" and learn nothing that de-risks the bet.
+Three kinds of research, and the first two are **yours to run, not the person's homework**. Confusing "primary research" with "the person must go interview people" is how this skill turns into a nag that repeatedly assigns 1-day, 2-day, week-long tasks instead of doing the digging itself.
 
-| | Desk research | Primary research |
-|---|---|---|
-| **Answers** | What already exists, how big, who competes, what's the going price, where the trend goes | Does *this* customer have *this* pain, how sharply, and will they *pay* |
-| **Tools** | web search / research tools, reports, competitor sites, app-store reviews | interviews, landing page, pre-order, concierge MVP |
-| **Stage** | OBSERVE, FRAME | TEST |
-| **Ceiling** | Can never confirm willingness-to-pay | The only thing that confirms the riskiest assumption |
+| | Desk research | Social listening | True primary |
+|---|---|---|---|
+| **Answers** | What already exists, how big, who competes, what's the going price | Does *this* customer already talk about *this* pain, unprompted, in their own words | Will *this* customer *pay*, right now, for *this* offer |
+| **Tools** | web search, reports, competitor sites | Reddit, X/Twitter, Facebook/WhatsApp/Telegram groups, App/Play Store reviews, G2/Capterra, Quora, niche forums — searched by you, right now | landing page + real traffic, pre-order, concierge MVP, pilot |
+| **Who runs it** | **You** (the assistant) | **You** (the assistant) — you have search/browse tools, use them | **The person** — only they have the audience, payment method, or product to put in front of a real customer |
+| **Stage** | OBSERVE, FRAME | TEST, before assigning anything | TEST, only for what listening couldn't settle |
+| **Ceiling** | Can't confirm the pain is felt by a real person | Can't confirm they'll pay — but often confirms the pain is real, sharp, and named in their own words, which is most of what a first interview round would find anyway | The only thing that confirms willingness-to-pay |
 
-**Rule:** desk research *informs* assumptions; primary evidence *validates* them. Never let a search session stand in for a customer conversation. But desk research is not just prep work for a lecture about primary research — use it actively to **shrink the test**, not just to justify demanding one:
+**Rule:** run desk research and social listening yourself, in the same turn, before proposing any test that costs the person a day of their time. Only ask them to *do* something when the question is specifically "will you pay" and no amount of searching can answer that.
 
-- A comparable product's public traction, pricing tiers, or funding history can substitute for "will they pay roughly this much."
-- Review-site and forum complaints ("I hate that X costs so much / takes so long") are free, real evidence of pain — often enough to skip straight to a landing page instead of cold interviews.
-- If desk research turns up strong analogous evidence, say explicitly: "this assumption is now medium-confidence from desk research alone — the remaining test is smaller than you'd think." Don't default to the full primary-research menu when the risk is already partly closed.
-- If desk research turns up a *better* angle than the one the person brought (cheaper channel, sharper wedge, competitor's obvious blind spot), surface it and explain why — that's a finding, not a tangent.
+## Desk research — market facts, do it fast
 
-## Desk research — do this first, do it fast
+Run during OBSERVE/FRAME. Timebox it — minutes, not hours.
 
-Run these scans during OBSERVE/FRAME. Timebox it — a day, not a month.
-
-- **Existing solutions.** What do people use today for this problem? (There is always something — a tool, a spreadsheet, an admin person, a workaround.) If you find *nothing*, suspect the pain isn't real.
+- **Existing solutions.** What do people use today for this problem? If you find *nothing*, suspect the pain isn't real.
 - **Competitors.** Who sells into this customer already? Read their pricing pages and their 1–3 star reviews — the complaints are your wedge.
-- **Market size.** Rough top-down (how many of this customer exist × plausible price) AND bottom-up (how many can you realistically reach). If it only works at a scale you can't reach, flag that as a risk.
-- **Trends / timing.** Is a behavior changing that makes now the right moment? ("Why now?" is a real question — most ideas were possible years ago.)
+- **Market size.** Rough top-down (how many of this customer exist × plausible price) AND bottom-up (how many can you realistically reach).
+- **Trends / timing.** Is a behavior changing that makes now the right moment?
 
-Good queries name the *customer + problem + current solution*, not just the idea. Prefer primary sources (the competitor's own pricing page, real user reviews, official market reports) over listicles.
+## Social listening — replaces "go interview people" for most of what interviews would find
 
-Capture findings as short notes tied to the assumptions they inform — not a 40-page report nobody rereads.
+This is the step that makes the skill do the legwork instead of assigning it. Before telling the person to run interviews, **search for the conversation that's already happening**:
 
-## Primary research — where the real evidence is
+- Search Reddit, X, Facebook/community groups, and niche forums for the customer + problem in their own words ("clinic owner" + "whatsapp orders" + "manual", not the idea's name). People vent about real pain unprompted — that venting is evidence.
+- Read App Store / Play Store reviews (1–3 star) and G2/Capterra reviews of adjacent tools — complaints there are a proxy for interview answers about what's broken today.
+- Quora/forum threads asking "how do I deal with X" are a direct signal someone is actively looking for a solution now, not hypothetically.
+- Capture direct quotes, not summaries — a real sentence from a real frustrated person is stronger evidence than your paraphrase of it.
+- State explicitly what this did and didn't settle: e.g. "pain is confirmed real and named unprompted in 6 threads — what's still open is whether they'd pay Rp1jt/mo for it, which only a real offer will answer."
 
-Desk research done? Now go get what it can't give you. See `loop.md` (TEST stage) for the menu: interviews, landing page, pre-order, concierge MVP. The signal you're hunting is not "that's a cool idea" — it's **"here's my money"** or a concrete commitment to it.
+If social listening turns up enough — pain confirmed, language matches, urgency visible — say so and skip straight to a true-primary test (landing page, pre-order) instead of stacking on an interview round nobody needs.
+
+## True primary — the one thing only the person can do
+
+What's left after desk research and social listening is narrow: **will this specific person pay this specific price for this specific offer.** No search answers that — it requires a real offer in front of a real customer. See `loop.md` (TEST stage) for the menu: landing page + traffic, pre-order, concierge MVP, pilot. Scope it to the smallest thing that produces "here's my money" or a real no — not a week of open-ended interviews when social listening already told you what people would say.
 
 ## The trap
 
-The comfortable failure mode: keep desk-researching because it feels productive and avoids the scary step of talking to a real customer. When you notice yourself opening a tenth browser tab, stop — the next move is a conversation, not another search.
+The comfortable failure mode isn't just "keep desk-researching" — it's also "keep assigning primary research to the person" when a search would've answered it. Before writing "go interview N people," check: did I actually search Reddit/forums/reviews for this customer's own words yet? If not, that's the next move — not another instruction to the person.
