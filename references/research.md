@@ -12,6 +12,12 @@ Three kinds of research, and the first two are **yours to run, not the person's 
 
 **Rule:** run desk research and social listening yourself, in the same turn, before proposing any test that costs the person a day of their time. Only ask them to *do* something when the question is specifically "will you pay" and no amount of searching can answer that.
 
+## Internet research is mandatory, not optional — Atlas is not a substitute
+
+Real-condition validation (does this pain exist today, who competes, what's the going price, is anyone already talking about it) can only come from live internet research — it is a **required** step of TEST, not a nice-to-have. [Atlas Domain Knowledge](domain-knowledge.md) is a static ontology for domain *vocabulary* only (real role/process/system names) — it has no opinion on today's market and must never be cited as if it validates real-world conditions. If the loop reaches TEST without having actually searched the internet, TEST is not done, regardless of how well-grounded FRAME/ASSUME are in Atlas vocabulary.
+
+**Minimum bar: read and understand at least 100 distinct websites/sources** (competitor pages, reviews, forum threads, articles, marketplace listings, social posts) across desk research + social listening combined, before calling the research phase of TEST complete. This is a floor, not a target to pad — every source counted must actually be read and its relevant content used (a fact cited, a quote captured, a price point noted), not just opened. When reporting back, state the count and the spread (e.g. "112 sources: 40 competitor/pricing pages, 35 Reddit/forum threads, 25 app-store reviews, 12 local (Indonesian) + 100 international"). If fewer than 100 genuinely relevant sources exist for a very narrow niche, say so explicitly and explain why the ceiling was hit — don't pad the count with irrelevant pages to hit the number.
+
 ## Desk research — market facts, do it fast
 
 Run during OBSERVE/FRAME. Timebox it — minutes, not hours.
