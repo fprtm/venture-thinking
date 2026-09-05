@@ -45,6 +45,23 @@ If social listening turns up enough — pain confirmed, language matches, urgenc
 
 What's left after desk research and social listening is narrow: **will this specific person pay this specific price for this specific offer.** No search answers that — it requires a real offer in front of a real customer. See `loop.md` (TEST stage) for the menu: landing page + traffic, pre-order, concierge MVP, pilot. Scope it to the smallest thing that produces "here's my money" or a real no — not a week of open-ended interviews when social listening already told you what people would say.
 
+### Interview questions that collect behavior, not opinion
+
+If an interview round genuinely is the next step (social listening found nothing usable), never ask hypothetical-future-behavior questions like "would you use a product that...?" — people answer those aspirationally and it means nothing. Ask about a specific real past event instead: "Tell me about the last time this happened." "When did it happen, what triggered it?" "Who handled it, what did they do?" "How long did it take?" "What tools did they use?" "What went wrong?" "What happened afterward?" "How much did that cost?" "Who noticed the problem?" "Who approves spending on this?" "What have you already tried?" "What software do you already pay for here?" "Why haven't you changed it?" "When does management actually care about this issue?" "What would make this a top priority for you?"
+
+## Competitor matrix — include non-software competitors
+
+For any promising market, build a table:
+
+| Competitor | Target Customer | Pricing | Positioning | Core Workflow | Strengths | Weaknesses | Complaints | Missing Features | Onboarding Complexity | Likely Moat | Wedge Opportunity |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+
+Include **non-software competitors** too — employees, agencies, consultants, spreadsheets, manual labor, outsourcing, and "doing nothing" are all things the target customer is choosing over buying a solution, and each implies a different reason they haven't switched yet.
+
+## Research integrity — no invented numbers
+
+Never invent statistics, customer quotes, market size, prices, review data, company revenue, product features, or customer behavior. If something is genuinely unknown, say **UNKNOWN**. If estimating, label it **ESTIMATE** and give a range. If inferring from other facts, label it **INFERENCE**. If the evidence found is thin, say **WEAK EVIDENCE** plainly rather than presenting it with unearned confidence. Provide links/source references wherever possible, and when two sources conflict, show the conflict instead of silently picking one. Full evidence-classification and evidence-strength system: [`red-team.md`](red-team.md).
+
 ## The trap
 
 The comfortable failure mode isn't just "keep desk-researching" — it's also "keep assigning primary research to the person" when a search would've answered it. Before writing "go interview N people," check: did I actually search Reddit/forums/reviews for this customer's own words yet? If not, that's the next move — not another instruction to the person.
