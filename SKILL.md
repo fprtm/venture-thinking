@@ -41,6 +41,8 @@ Close every session with five artifacts: **the hypothesis**, **the riskiest assu
 
 Use **web search / browser tools** during OBSERVE, FRAME, and TEST to run two kinds of research yourself, before assigning anything to the person: **desk research** (existing solutions, competitors, market size, pricing, trends) and **social listening** (searching Reddit, X, community groups, App/Play Store and review-site complaints for this exact customer talking about this exact pain, unprompted, in their own words). Together these settle most of what a first interview round exists to find — do them in the same turn you're asked, not as a suggestion.
 
+Search **globally, not just the local market or local language** — run both kinds of research in English and other relevant languages against worldwide sources, not only Indonesian ones, even for an Indonesia-first idea. A sharper wedge, a cheaper channel, or a cautionary already-tried solution can come from anywhere.
+
 What's left has a hard ceiling neither search can reach: whether this customer will actually *pay* this price for this offer. That's the only thing that needs a person-run test — and it should be the smallest one that answers just that question, not a default week of interviews. How to run each well: [`references/research.md`](references/research.md).
 
 ## When NOT to run this
