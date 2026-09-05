@@ -1,6 +1,6 @@
 # Domain grounding via Atlas Domain Knowledge
 
-Vague FRAME answers are usually a vocabulary problem, not a thinking problem — "clinic owners" and "manual workflow" are placeholders, not a domain. Before accepting a FRAME or naming an assumption, ground the idea in **Atlas Domain Knowledge** (`~/projects/personal/atlas-domain-knowledge/atlas-domain-knowledge.md`, if present on this machine) instead of inventing roles, processes, or systems from general knowledge. This is optional grounding, not a hard dependency — if the file isn't there, run the loop as normal.
+Vague FRAME answers are usually a vocabulary problem, not a thinking problem — "clinic owners" and "manual workflow" are placeholders, not a domain. Before accepting a FRAME or naming an assumption, ground the idea in **Atlas Domain Knowledge** — [github.com/fprtm/atlas-domain-knowledge](https://github.com/fprtm/atlas-domain-knowledge) (raw file: [`atlas-domain-knowledge.md`](https://raw.githubusercontent.com/fprtm/atlas-domain-knowledge/main/atlas-domain-knowledge.md)) — instead of inventing roles, processes, or systems from general knowledge. Fetch it with a web-fetch tool when available. This is optional grounding, not a hard dependency — if it can't be fetched, run the loop as normal.
 
 ## What to pull from it, and when
 
@@ -14,7 +14,7 @@ Vague FRAME answers are usually a vocabulary problem, not a thinking problem —
 
 ## If the idea already exists as an Atlas Blueprint
 
-If `~/projects/personal/atlas-blueprints/` has a matching `mvp-<slug>/README.md` for this idea, read it first — it already has Problem, Core Workflow, Sistem Dibutuhkan, Data Entities, and AI Opportunity filled in against the correct Atlas industry section. Treat that as the FRAME starting draft to interrogate and sharpen, not something to redo from scratch. After the loop finishes, if the verdict changes the idea materially (new wedge, new pivot, new pricing), that blueprint's `Status` and `Next Step` fields are the place to record it back.
+Check [github.com/fprtm/atlas-blueprints](https://github.com/fprtm/atlas-blueprints) for a matching `mvp-<slug>/README.md` for this idea and fetch it if found — it already has Problem, Core Workflow, Sistem Dibutuhkan, Data Entities, and AI Opportunity filled in against the correct Atlas industry section. Treat that as the FRAME starting draft to interrogate and sharpen, not something to redo from scratch. After the loop finishes, if the verdict changes the idea materially (new wedge, new pivot, new pricing), note that the blueprint's `Status` and `Next Step` fields should be updated to match (the person owns that repo — don't push to it yourself).
 
 ## How to use this without breaking the loop
 
