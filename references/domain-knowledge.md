@@ -12,10 +12,6 @@ Vague FRAME answers are usually a vocabulary problem, not a thinking problem —
 
 **Anti-patterns to avoid** — Atlas §54 lists common domain-modeling mistakes (treating a role as a system, confusing a process with a decision, inventing data entities no real system holds). Skim it before finalizing FRAME/ASSUME wording so the hypothesis doesn't rest on a fabricated system or dataset.
 
-## If the idea already exists as an Atlas Blueprint
-
-Check [github.com/fprtm/atlas-blueprints](https://github.com/fprtm/atlas-blueprints) for a matching `mvp-<slug>/README.md` for this idea and fetch it if found — it already has Problem, Core Workflow, Sistem Dibutuhkan, Data Entities, and AI Opportunity filled in against the correct Atlas industry section. Treat that as the FRAME starting draft to interrogate and sharpen, not something to redo from scratch. After the loop finishes, if the verdict changes the idea materially (new wedge, new pivot, new pricing), note that the blueprint's `Status` and `Next Step` fields should be updated to match (the person owns that repo — don't push to it yourself).
-
 ## How to use this without breaking the loop
 
 This is grounding, not homework for the person — do the Atlas lookup yourself, in the same turn, the same way desk research and social listening happen in TEST. Don't quote large verbatim blocks of Atlas back at the person; extract the two or three facts (the real role name, the real process step, the real system) that sharpen the FRAME, and cite the section (e.g. "per Atlas §8 Healthcare") so it's traceable.
