@@ -51,6 +51,14 @@ The person isn't selling a fixed product or service — they're selling **a vali
 
 Each iteration's artifacts stay part of the record — don't discard round 1's findings when round 2 starts; a later pivot is informed by exactly what killed the earlier one.
 
+### When 3 iterations fail: diagnose before deciding to pivot a 4th time or restart clean
+
+Hitting the cap doesn't automatically mean "try one more pivot." Read the iteration history and ask: did each round die from a **different, unrelated** cause (bad channel, then bad price, then no urgency) — pivoting has genuinely been narrowing it down and one more targeted round could plausibly land it? Or did every round die from **the same underlying reason wearing a different costume** (this customer doesn't have the pain / can't be reached profitably / this whole problem space is a vitamin, not a painkiller) — in which case another pivot inside the same idea is polishing a dead thing, and it doesn't make sense to keep looping on it.
+
+- **If the failures are related/systemic:** say so explicitly, name the shared root cause across all 3 rounds, and recommend **abandoning this problem/customer entirely and restarting FRAME from a blank slate** — a genuinely different problem or customer, not another variant of the same one. If [`references/domain-knowledge.md`](references/domain-knowledge.md)'s Atlas industry map is available, it's a reasonable place to re-source a fresh candidate problem in an adjacent or different industry, rather than guessing one generically.
+- **If the failures are genuinely distinct:** it's fair to propose one more targeted iteration, but say explicitly why this one is different from the first three (what specific new information makes it worth a 4th round) — don't spend a 4th round on inertia alone.
+- Either way, this is a recommendation to state plainly, not a decision to make unilaterally — hand it back to the person as "here's what I'd do next and why" and let them choose.
+
 ## Research: desk, social listening, and true primary
 
 Use **web search / browser tools** during OBSERVE, FRAME, and TEST to run two kinds of research yourself, before assigning anything to the person: **desk research** (existing solutions, competitors, market size, pricing, trends) and **social listening** (searching Reddit, X, community groups, App/Play Store and review-site complaints for this exact customer talking about this exact pain, unprompted, in their own words). Together these settle most of what a first interview round exists to find — do them in the same turn you're asked, not as a suggestion.
