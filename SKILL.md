@@ -52,11 +52,13 @@ The person isn't selling a fixed product or service — they're selling **a vali
 **Stop iterating when one of these is true, and say explicitly which:**
 - A hypothesis's riskiest assumption survives TEST (real evidence — social listening or a true-primary result — supports it, not just "no better angle found"). This is the success exit: report it as validated and move to BET/CANVAS as the final round.
 - **Five iterations** have run and none survived — this is the mandatory diagnosis checkpoint (see below), not necessarily a full stop.
-- **Ten iterations** have run and none survived — this is a **hard ceiling, no exceptions**. Stop, report the full iteration history (every hypothesis, what killed each one, what was learned across all of them), and say plainly that no validated angle was found within this session — don't quietly keep spinning or fake a pass to end the loop.
+- **Ten iterations** have run and none survived — this is a **hard ceiling, no exceptions**. Stop, report the full iteration history (every hypothesis, what killed each one, what was learned across all of them), and say plainly that no validated angle was found within this session — don't quietly keep spinning or fake a pass to end the loop. **Zero surviving hypotheses is a legitimate, useful result, not a failed session** — the real deliverable at that point is the extracted cross-round pattern(s) (see below), which is worth more than one untested idea would have been.
 - The riskiest remaining assumption is now **irreversible to test cheaply** (would require real capital, a long contract, or burning the only shot at this customer segment) — stop and flag that further iteration needs a different kind of decision, not another cheap test.
 - The person explicitly says they want to commit and build on the current best hypothesis, even if unvalidated — respect that; don't keep re-litigating (see "When NOT to run this").
 
 Each iteration's artifacts stay part of the record — don't discard round 1's findings when round 2 starts; a later pivot is informed by exactly what killed the earlier one.
+
+**When the loop ends with zero survivors, extract the cross-round pattern before closing the session.** Scan the "Why" column of the Iteration Log for a shared root cause across rounds (a real DISCOVER run that killed 10/10 candidates found, e.g., that every failure traced back to one underlying constraint — see the named traps in [`references/red-team.md`](references/red-team.md) for concrete examples). That pattern — stated as a reusable filter for the *next* search, not just a postmortem of this one — is the actual deliverable of a session that ends at zero, and it's worth more than a single untested idea would have been. Don't close a zero-survivor session with just a list of deaths; close it with the rule those deaths imply.
 
 ### Iteration Log — a visible, running record of every round
 
