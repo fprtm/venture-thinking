@@ -4,11 +4,19 @@ Only run this stage when the person has **no idea yet** and wants markets/pains 
 
 **Do not start from technology.** Never open with "what SaaS/AI product should I build" — that's the solution jump the Stance already forbids, just one level earlier. Start from: *who has a painful, recurring, expensive, urgent problem, and what evidence proves it deserves solving.* The target endpoint is a customer who would say "I don't care what technology you use, just make this problem go away" — implementation vehicle (software, automation, agent, service) comes after the pain is proven, not before.
 
-## The funnel: wide, then narrow
+## The funnel: top-down, one narrowing decision at a time
+
+When there's no idea at all yet, don't jump straight to hunting for pain across a scattered pile of markets — narrow in this explicit order, each step feeding the next:
 
 ```
-10–20 candidate problem spaces
-        ↓ (market map + evidence)
+Industry (pick the single best one)
+        ↓
+Market segmentation (within that industry)
+        ↓
+Niche (pick the single best segment)
+        ↓
+Pain-hunt (within that niche only)
+        ↓ (market map + evidence across candidate pains)
    ~5 shortlisted opportunities
         ↓ (deep dive)
    top 3, fully mapped
@@ -18,62 +26,70 @@ Only run this stage when the person has **no idea yet** and wants markets/pains 
 
 Don't lock onto the first interesting market. Traditional industries with bad software (construction, field services, property management, insurance ops, procurement, agencies) are often better hunting ground than "software startups" as customers — boring beats trendy.
 
-### Step 1 — cast wide: candidate problem spaces
+### Step 1 — pick the best industry first
 
-List 10–20 industries/functions to scan before narrowing (finance ops, accounting, logistics, ecommerce ops, healthcare admin, legal ops, construction, property management, manufacturing, field services, insurance ops, recruiting ops, procurement, sales ops, customer success, compliance, cybersecurity ops, IT/DevOps, developer infra, data ops, marketing ops, agencies, professional services, education admin, government contractors, niche SMB industries, import/export, supply chain, hospitality, automotive ops, B2B marketplaces — not exhaustive). Cross-reference against [`domain-knowledge.md`](domain-knowledge.md)'s Atlas industry map (§8, 45 industries) for real subindustries/roles/processes instead of guessing generically.
+List 10–20 industries/functions as candidates (finance ops, accounting, logistics, ecommerce ops, healthcare admin, legal ops, construction, property management, manufacturing, field services, insurance ops, recruiting ops, procurement, sales ops, customer success, compliance, cybersecurity ops, IT/DevOps, developer infra, data ops, marketing ops, agencies, professional services, education admin, government contractors, niche SMB industries, import/export, supply chain, hospitality, automotive ops, B2B marketplaces — not exhaustive). Cross-reference against [`domain-knowledge.md`](domain-knowledge.md)'s Atlas industry map (§8, 45 industries) for real subindustries/roles/processes instead of guessing generically.
 
-Actively search for **boring but expensive** signals in each: "we still do this manually," "we export it to Excel," "someone checks this every day," "we hired someone just for this," "we copy this from system A to system B," "we hate our current provider," "it takes days," "we pay consultants to do this," "it's required for compliance," "we can't afford mistakes here." These beat trendy ideas as startup signals.
+Compare candidates at the industry level — not a full pain investigation yet, just a sniff test — on **boring-but-expensive** signals: "we still do this manually," "we export it to Excel," "someone checks this every day," "we hired someone just for this," "we copy this from system A to system B," "we hate our current provider," "it takes days," "we pay consultants to do this," "it's required for compliance," "we can't afford mistakes here." Then commit to **one industry** to go deeper on, stating explicitly why it beat the others (don't carry all 10–20 forward in parallel — pick, then go deep; if the chosen one dead-ends later, that's what the DISCOVER restart in Iterate is for).
 
-### Step 2 — map the workflow for each promising candidate
+### Step 2 — segment that industry's market
 
-For each candidate that clears an initial sniff test, map: **actors** (who participates) → **workflow** (start to finish) → **frequency** → **inputs/outputs** → **software currently used** → **handoffs** (where work moves between people/systems) → **manual steps remaining** → **bottlenecks** → **errors and their consequences** → **workarounds** (how people compensate) → **cost** (resources consumed) → **buyer** (who controls budget) → **trigger** (what causes active purchasing) → **alternatives** (software, employees, agencies, consultants, spreadsheets, doing nothing). If a dedicated workflow-discovery tool/skill is available in this environment, it can do this mapping — otherwise do it directly with search + reasoning.
+Within the chosen industry, segment the market on the dimensions that actually change buying behavior: company size (solo/SMB/mid-market/enterprise), geography, business model (B2B vs B2C, subscription vs project-based), buyer type/role, and sub-vertical (e.g. within Healthcare: dental clinics vs hospitals vs home-care agencies are different markets, not one). List the real segments — don't invent generic ones — using Atlas's subindustry/role breakdown ([`domain-knowledge.md`](domain-knowledge.md)) as the vocabulary source.
 
-### Step 3 — workarounds are gold
+### Step 3 — narrow to the single best niche
 
-Search aggressively for "ugly solutions": spreadsheets (Excel/Sheets), Notion/Airtable databases, email chains, Slack/WhatsApp reminders, manual copy-paste, VAs/offshore staff, consultants/agencies/interns, Zapier/Make chains, Python scripts, macros, browser automation, homemade dashboards, CSV exports, screenshots, manual reconciliation, repeated meetings. An ugly homemade workaround means the problem matters enough that someone built something instead of doing nothing — document what it is, who runs it, how often, how long it takes, what it costs, why they tolerate it, what breaks, what they hate, and why existing software hasn't replaced it.
+Pick the one segment most worth investigating, favoring **narrow market + severe problem + accessible customers + high willingness to pay** over **huge market + vague problem + hypothetical users**. State explicitly why this niche beat the other segments from Step 2 (accessibility, believed pain severity, believed budget, founder fit) — this is a reasoned bet based on what's known so far, refined with real evidence in the next step, not a guess to defend at all costs.
 
-### Step 4 — competition is validation, not automatic rejection
+### Step 4 — now, and only now, hunt for the pain within that niche
 
-No competitors can mean an undiscovered market — or it can mean nobody cares. Existing competitors prove demand, budget, buying behavior, and category awareness — don't reject a market just because it's occupied. Instead investigate *why customers still complain*: underserved niches, expensive incumbents, terrible UX, poor integrations, enterprise-only pricing, SMB-unfriendly pricing, weak automation, poor localization, missing workflows, slow support, compliance gaps, fragmented tooling, customers stitching multiple tools together. Search patterns: `[competitor] alternative`, `[competitor] sucks`, `[competitor] too expensive`, `[competitor] pricing`, `[competitor] manual`, `[competitor] workaround`, `[competitor] reddit`, `[competitor] review`.
+With industry → segment → niche fixed, map the actual workflow: **actors** (who participates) → **workflow** (start to finish) → **frequency** → **inputs/outputs** → **software currently used** → **handoffs** → **manual steps remaining** → **bottlenecks** → **errors and consequences** → **workarounds** → **cost** → **buyer** → **trigger** → **alternatives** (software, employees, agencies, consultants, spreadsheets, doing nothing). If a dedicated workflow-discovery tool/skill is available in this environment, it can do this mapping — otherwise do it directly with search + reasoning.
 
-### Step 5 — buying signals (stronger than stated opinions)
+### Step 5 — workarounds are gold
+
+Search aggressively for "ugly solutions" within the chosen niche: spreadsheets (Excel/Sheets), Notion/Airtable databases, email chains, Slack/WhatsApp reminders, manual copy-paste, VAs/offshore staff, consultants/agencies/interns, Zapier/Make chains, Python scripts, macros, browser automation, homemade dashboards, CSV exports, screenshots, manual reconciliation, repeated meetings. An ugly homemade workaround means the problem matters enough that someone built something instead of doing nothing — document what it is, who runs it, how often, how long it takes, what it costs, why they tolerate it, what breaks, what they hate, and why existing software hasn't replaced it.
+
+### Step 6 — competition is validation, not automatic rejection
+
+No competitors can mean an undiscovered niche — or it can mean nobody cares. Existing competitors prove demand, budget, buying behavior, and category awareness — don't reject the niche just because it's occupied. Instead investigate *why customers still complain*: underserved sub-segments, expensive incumbents, terrible UX, poor integrations, enterprise-only pricing, SMB-unfriendly pricing, weak automation, poor localization, missing workflows, slow support, compliance gaps, fragmented tooling, customers stitching multiple tools together. Search patterns: `[competitor] alternative`, `[competitor] sucks`, `[competitor] too expensive`, `[competitor] pricing`, `[competitor] manual`, `[competitor] workaround`, `[competitor] reddit`, `[competitor] review`.
+
+### Step 7 — buying signals (stronger than stated opinions)
 
 Prefer behavioral evidence over stated opinion: hiring people specifically to perform the task, consulting firms offering this exact service, freelancer/Upwork/Fiverr jobs requesting this workflow, RFPs, expensive software already purchased for it, customers publicly asking for alternatives, implementation-consultant ecosystems around an incumbent, training courses teaching the manual process, template ecosystems, operational roles that exist solely to manage the problem. "People say this would be useful" is weak; "companies already pay $20k/yr for a hated incumbent because the task can't be ignored" is strong.
 
-### Step 6 — market map table
+### Step 8 — market map table (candidate pains within the chosen niche)
 
-Build a table across all candidates before narrowing:
+By this point the industry, segment, and niche are fixed — this table compares the **distinct pains/workflows found within that one niche**, not different industries:
 
-| Market | Actor | Core Pain | Pain Evidence | Existing Spend | Frequency | Buyer | Current Solution | Dissatisfaction | Builder Leverage | Evidence Level |
+| Pain/Workflow | Actor | Core Pain | Pain Evidence | Existing Spend | Frequency | Buyer | Current Solution | Dissatisfaction | Builder Leverage | Evidence Level |
 |---|---|---|---|---|---|---|---|---|---|---|
 
-Research at least 10 serious candidates. Don't pad the table with filler ideas to hit a count — a shorter honest list beats a padded one (same "no silent caps" principle as everywhere else in this skill: if fewer than 10 genuinely promising candidates exist, say so).
+Research at least 10 serious candidate pains within the niche before narrowing further. Don't pad the table with filler ideas to hit a count — a shorter honest list beats a padded one (same "no silent caps" principle as everywhere else in this skill: if fewer than 10 genuinely distinct pains exist in this niche, say so, and it's fair evidence the niche itself may be too narrow).
 
-### Step 7 — pain scoring (for ranking the shortlist)
+### Step 9 — pain scoring (for ranking the shortlist)
 
-Score each candidate 1–10 on: Severity, Frequency, Urgency, Economic Impact, Current Spend, Dissatisfaction (with current alternatives), Buyer Clarity, Reachability, Buildability (can a small team solve it), Time to Value, Switching Feasibility, Recurring Need, Retention Potential, Expansion Potential, Competitive-Advantage Potential.
+Score each candidate pain 1–10 on: Severity, Frequency, Urgency, Economic Impact, Current Spend, Dissatisfaction (with current alternatives), Buyer Clarity, Reachability, Buildability (can a small team solve it), Time to Value, Switching Feasibility, Recurring Need, Retention Potential, Expansion Potential, Competitive-Advantage Potential.
 
 **Weight Severity, Economic Impact, Current Spend, Buyer Clarity, Reachability, and Recurring Need higher than the rest.** Never let a high total built from lots of mediocre scores disguise weak pain — a candidate with Severity 4/10 should almost never make the shortlist regardless of how the other numbers look. Scores support reasoning, not replace it; don't fake precision with decimals.
 
-### Step 8 — shortlist ~5, then deep-dive the top 3
+### Step 10 — shortlist ~5, then deep-dive the top 3
 
-For the shortlist of ~5, state per candidate: Market, precise ICP, Pain, existing workflow, pain consequence, evidence, current spend/workaround, existing competitors, why incumbents fail, buyer, trigger, distribution, possible wedge, builder-leverage fit, major risks, falsification conditions (see [`red-team.md`](red-team.md)), confidence.
+For the shortlist of ~5, state per candidate: Pain/workflow, precise ICP, existing workflow, pain consequence, evidence, current spend/workaround, existing competitors, why incumbents fail, buyer, trigger, distribution, possible wedge, builder-leverage fit, major risks, falsification conditions (see [`red-team.md`](red-team.md)), confidence.
 
 For the **top 3**, go deeper — market definition (precise segment), customer profile, job to be done (functional + economic), workflow map, pain map, root cause, economic cost range, current alternatives (incl. doing nothing), competitive landscape (direct + indirect + non-software), buying process (user/champion/buyer/blocker), buying trigger, solution wedge, pricing logic, distribution (how the first 10 customers get acquired realistically), retention rationale, expansion path, risks, red team (strongest reasons *not* to pursue — [`red-team.md`](red-team.md)), validation tests, and who specifically to interview next.
 
-### Step 9 — wedge, not platform
+### Step 11 — wedge, not platform
 
 Never propose a broad platform first. Bad: "AI platform for logistics companies." Better: "Automatically reconcile carrier invoices against contracted freight rates for mid-sized importers using 3PL providers." Use the template:
 
 > We help **[specific customer]** solve **[specific painful workflow]** when **[trigger/context]**, reducing **[measurable consequence]**.
 
-### Step 10 — distribution and reachability, checked before falling in love with the idea
+### Step 12 — distribution and reachability, checked before falling in love with the idea
 
 For every finalist: where do these customers congregate (professional communities, industry associations, LinkedIn, niche conferences/newsletters, Reddit/Slack/Facebook groups, supplier ecosystems, marketplaces, integration marketplaces, consultants/agencies/accountants/brokers as resellers, cold outbound, SEO, YouTube, industry directories)? Estimate ease of identifying prospects, contact availability, buyer concentration, likely response rate, sales cycle, trust barrier.
 
 If the person building this has no major brand or team, explicitly answer: **could they realistically contact and interview 20–50 potential customers themselves?** If no, downgrade the opportunity unless another strong distribution mechanism exists (an accessible reseller/consultant channel, an existing community they're already in).
 
-### Step 11 — "why now"
+### Step 13 — "why now"
 
 Investigate the catalyst that makes this solvable *now* and not five years ago or five years from now: AI capability jump, new API availability, regulatory change, labor cost increase, remote work shift, fragmented SaaS stacks, new compliance requirement, incumbent price increase, category shift, platform change, new data availability. Don't force a timing narrative — if there's no strong "why now," say so plainly rather than inventing one.
 
