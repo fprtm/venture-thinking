@@ -43,7 +43,7 @@ Locate where the person is, run that stage, then push to the next. Do not run st
 
 6. **CANVAS** — Once FRAME (and ideally ASSUME/TEST) have real material, produce a proper Business Model Canvas: 9 blocks, each pulled directly from what the loop already established, not invented fresh — see [`references/business-model-canvas.md`](references/business-model-canvas.md) for the block-by-block sourcing rules, what "generic vs. specific" looks like per block, and how to mark unvalidated blocks. Price Revenue Streams against the customer-economics cost-of-pain calculation ([`references/economics.md`](references/economics.md)), not a feature count. Skip this stage (or produce only a flagged draft) if FRAME alone isn't done yet — a canvas off a one-line pitch is fiction. Localize any global-research benchmarks back to the actual target market's pricing power, channels, payment habits, and regulation before they land in the canvas — a foreign data point calibrates, it doesn't get copied in verbatim (same reference file has the localization rules). **Done when:** all 9 blocks are filled with specifics traceable to FRAME/ASSUME/TEST/economics, internally consistent, and the least-validated block is named.
 
-Close every session with seven artifacts: **the hypothesis**, **the riskiest assumption**, **the red team write-up** (Bull/Bear/Kill-Shot/what-would-change-our-mind + falsification conditions), **the cheapest test + its pass/fail signal**, **the one action this week**, **the sharper version** — if the idea is still alive, the gap it doesn't cover yet plus the most inventive fix for it ("no better angle found" is only valid after genuinely looking); if the test killed it (or clearly will), the exact cause of death plus one concrete pivot that removes it — and **the Business Model Canvas** (or an explicitly flagged draft if FRAME isn't done). If any is missing, the loop is not done.
+Close every session with seven artifacts: **the hypothesis**, **the riskiest assumption**, **the red team write-up** (Bull/Bear/Kill-Shot/what-would-change-our-mind + falsification conditions), **the cheapest test + its pass/fail signal**, **the one action this week**, **the sharper version** — if the idea is still alive, the gap it doesn't cover yet plus the most inventive fix for it ("no better angle found" is only valid after genuinely looking); if the test killed it (or clearly will), the exact cause of death plus one concrete pivot that removes it — and **the Business Model Canvas** (or an explicitly flagged draft if FRAME isn't done). If more than one round ran, add an eighth: **the Iteration Log** (see Iterate below) — the full round-by-round table, not a summary of it. If any is missing, the loop is not done.
 
 ## Iterate: this is a loop, not one pass
 
@@ -57,6 +57,24 @@ The person isn't selling a fixed product or service — they're selling **a vali
 - The person explicitly says they want to commit and build on the current best hypothesis, even if unvalidated — respect that; don't keep re-litigating (see "When NOT to run this").
 
 Each iteration's artifacts stay part of the record — don't discard round 1's findings when round 2 starts; a later pivot is informed by exactly what killed the earlier one.
+
+### Iteration Log — a visible, running record of every round
+
+Keep one running log, shown to the person and updated after every round (not written from memory at the very end) — it must be readable at a glance what each round *wanted to prove* and *why it failed or survived*:
+
+| Round | Hypothesis (FRAME) | Riskiest Assumption | Stage Reached | Outcome | Why (cause of death, or why it survived) |
+|---|---|---|---|---|---|
+| 1 | ... | ... | RED TEAM / TEST / CANVAS | Killed / Survived | ... |
+| 2 | ... | ... | ... | ... | ... |
+
+Rules for keeping it honest and actually useful:
+
+- **Append, never overwrite.** Round 2's row doesn't replace round 1's — the whole table is the point, so a later pivot's reasoning ("this round is different because...") can be checked against what's actually in the table, not against a claim about it.
+- **"Stage Reached" says where it died**, not just "TEST" — a hypothesis can die at RED TEAM (didn't survive the falsification check before any research was spent), at TEST (research/evidence didn't support the assumption), or at CANVAS (a block turned out inconsistent). Naming the stage tells you how expensive the mistake was to catch.
+- **"Why" must be the specific reason**, not a category label — "killed at TEST: 40+ sources found this exact pain, but zero evidence anyone pays for it (Level 2 evidence, never above)" is useful; "didn't validate" is not.
+- **If DISCOVER (Stage 0) ran**, log its narrowing decisions too, in the same spirit: which industry/segment/niche was picked at each step and why it beat the alternatives — so if the DISCOVER-restart path triggers later (systemic-failure diagnosis at 5 iterations), the earlier industry/niche choices and why they were made are still visible, not re-litigated from scratch.
+- **At the diagnosis checkpoints (5 and every round after)**, the systemic-vs-distinct read *is* a scan of this table's "Why" column across rounds — point at which rows share a root cause when calling it systemic, don't just assert it.
+- **In the final report**, the full table is one of the required artifacts whenever more than one round ran — it's the evidence behind "sharper version" and behind any recommendation to stop or restart from DISCOVER, not an optional appendix.
 
 ### At 5 iterations: diagnose before continuing toward the cap of 10
 
