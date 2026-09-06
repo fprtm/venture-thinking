@@ -16,7 +16,21 @@ Three kinds of research, and the first two are **yours to run, not the person's 
 
 Real-condition validation (does this pain exist today, who competes, what's the going price, is anyone already talking about it) can only come from live internet research — it is a **required** step of TEST, not a nice-to-have. [Atlas Domain Knowledge](domain-knowledge.md) is a static ontology for domain *vocabulary* only (real role/process/system names) — it has no opinion on today's market and must never be cited as if it validates real-world conditions. If the loop reaches TEST without having actually searched the internet, TEST is not done, regardless of how well-grounded FRAME/ASSUME are in Atlas vocabulary.
 
-**Minimum bar: read and understand at least 50 distinct websites/sources** (competitor pages, reviews, forum threads, articles, marketplace listings, social posts) across desk research + social listening combined, before calling the research phase of TEST complete. This is a floor, not a target to pad — every source counted must actually be read and its relevant content used (a fact cited, a quote captured, a price point noted), not just opened. When reporting back, state the count and the spread (e.g. "56 sources: 20 competitor/pricing pages, 18 Reddit/forum threads, 12 app-store reviews, 6 local (Indonesian) + 50 international"). If fewer than 50 genuinely relevant sources exist for a very narrow niche, say so explicitly and explain why the ceiling was hit — don't pad the count with irrelevant pages to hit the number.
+**Two tiers, not one flat minimum** (see SKILL.md's "Rigor tiers" section for when each applies):
+
+- **SNIFF (~10–15 sources):** a fast pass to check whether the pain shows up at all and whether any of the five named traps ([`red-team.md`](red-team.md)) apply. This is the default for a hypothesis's first 1–2 rounds and for every DISCOVER narrowing pick — cheap enough to run on a candidate that's likely to die anyway.
+- **FULL (at least 50 distinct sources read and understood):** the real bar, for any hypothesis that survived SNIFF. Competitor pages, reviews, forum threads, articles, marketplace listings, social posts, across desk research + social listening combined. This is a floor, not a target to pad — every source counted must actually be read and its relevant content used (a fact cited, a quote captured, a price point noted), not just opened.
+
+When reporting back, state which tier ran, the count, and the spread (e.g. "FULL: 56 sources — 20 competitor/pricing pages, 18 Reddit/forum threads, 12 app-store reviews, 6 local (Indonesian) + 50 international"). If fewer than the tier's target genuinely relevant sources exist for a very narrow niche, say so explicitly and explain why the ceiling was hit — don't pad the count with irrelevant pages to hit the number. **Never skip straight to FULL without a SNIFF pass first** — that shortcut is what let a real run burn 50-source treatments on candidates a 15-source check would have killed (see SKILL.md's Rigor tiers).
+
+## Start real outreach the moment SNIFF clears — don't gate it behind FULL
+
+Desk research and social listening are fast for an assistant but real customer contact is what actually settles willingness-to-pay, and canonical lean methodology (Ash Maurya's *Running Lean*, Teresa Torres's continuous discovery) gets a human in the loop early — not after a research phase "finishes." The moment a hypothesis clears SNIFF (named traps checked, pain shows up at all), do two things **in parallel**, not sequentially:
+
+1. Continue desk research + social listening up to the FULL 50-source bar.
+2. Draft the outreach message and identify a handful of real prospects *now*, and hand it to the person to start sending — while research (1) is still running, not after it's done.
+
+Waiting for all 50 sources before the person ever contacts a real human is the same mistake as running research forever instead of testing — it just moves the stall from "endless desk research" to "endless research before permission to talk to anyone."
 
 ## Desk research — market facts, do it fast
 

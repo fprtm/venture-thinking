@@ -2,6 +2,8 @@
 
 Only run this stage when the person has **no idea yet** and wants markets/pains worth pursuing found from scratch ("what should I build", "find me a painful problem", "I'm a developer looking for a venture"). If they already brought an idea, skip straight to FRAME — DISCOVER is a wide-funnel search, FRAME is narrow interrogation of one thing.
 
+**Everything in this stage runs at SNIFF tier** (see SKILL.md's "Rigor tiers" section) — quick reasoning, light search (~10–15 sources total per candidate being screened, not per step), checked against the named traps in [`red-team.md`](red-team.md). None of the 13 steps below need a full 50-source treatment or a complete red-team writeup — that only happens once, for the single opportunity that survives all the way to Step 13 and gets handed to FRAME. Treating every industry/segment/niche/pain candidate here as if it needed FULL rigor is exactly what made a real run of this process expensive for zero surviving ideas — most candidates should die in minutes at SNIFF, not hours.
+
 **Do not start from technology.** Never open with "what SaaS/AI product should I build" — that's the solution jump the Stance already forbids, just one level earlier. Start from: *who has a painful, recurring, expensive, urgent problem, and what evidence proves it deserves solving.* The target endpoint is a customer who would say "I don't care what technology you use, just make this problem go away" — implementation vehicle (software, automation, agent, service) comes after the pain is proven, not before.
 
 ## The funnel: top-down, one narrowing decision at a time

@@ -11,6 +11,15 @@ RED TEAM is **one structured write-up per hypothesis round** (Bull/Bear/Kill-Sho
 - **Never stack an extra stopping requirement on top of the loop's iteration cap** (the 5-soft/10-hard rule in SKILL.md's Iterate section). That cap is the sole stopping authority for how many hypothesis-rounds run in a DISCOVER/FRAME session — a separate, larger round-quota or a "consecutive clean streak" requirement bolted on top is exactly what produced the runaway case above.
 - **A killed argument doesn't get re-litigated.** Once an objection has killed a hypothesis or a whole class of hypotheses, log it once (in the Iteration Log or a dead-arguments note) and cite it in later rounds instead of re-arguing it from scratch — re-litigating settled kills is pure wasted cost.
 
+## SNIFF vs FULL — two different amounts of red-teaming
+
+Not every hypothesis earns the full treatment below. Per SKILL.md's "Rigor tiers":
+
+- **SNIFF (default for DISCOVER and rounds 1–2 of a pivot):** just the five named traps (below) plus one line stating the falsification condition ("what evidence would prove this isn't worth pursuing"). If a named trap fires, that's a kill — done, log it, move on. This takes minutes, not a full write-up.
+- **FULL (only once SNIFF survives):** everything else in this file — evidence classification, follow-the-money, pain-behind-pain laddering, the complete objection list, and the Bull/Bear/Kill-Shot/what-would-change-mind write-up.
+
+Running FULL on a hypothesis that a 2-minute SNIFF check would have killed is the exact waste this file exists to prevent — check the named traps first, always.
+
 ## Evidence classification — label every important claim
 
 Do not let a claim's plausibility stand in for its evidence. Classify each material claim as one of:
